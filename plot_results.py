@@ -16,6 +16,6 @@ plt.legend()
 plt.grid()
 
 
-plt.savefig("sorting_performance.png", dpi=300, bbox_inches="tight")
+plt.savefig("images/sorting_performance.png", dpi=300, bbox_inches="tight")
 
 plt.show()

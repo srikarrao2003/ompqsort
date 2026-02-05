@@ -31,7 +31,7 @@ def main():
     # Compile sort
     print("Compiling sort.cpp...")
     subprocess.run(
-        ["g++", "-O3", "-fopenmp", "-pthread", "-std=c++17", "sort.cpp", "-o", "sort"]
+        ["g++", "-O3", "-fopenmp", "-pthread", "-std=c++17", "src/sort.cpp", "-o", "sort"]
     )
 
     with open(CSV_FILE, "w", newline="") as f:
